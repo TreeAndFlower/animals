@@ -1,0 +1,3 @@
+/Users/muhan/myProject/animals/animals/build/CMakeFiles/rebuild_cache.dir
+/Users/muhan/myProject/animals/animals/build/CMakeFiles/edit_cache.dir
+/Users/muhan/myProject/animals/animals/build/CMakeFiles/animals.dir

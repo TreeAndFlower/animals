@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/muhan/myProject/animals/animals/animals.h
+string
+-
+
+/Users/muhan/myProject/animals/animals/cat.h
+animals.h
+/Users/muhan/myProject/animals/animals/animals.h
+
+/Users/muhan/myProject/animals/animals/cattle.h
+animals.h
+/Users/muhan/myProject/animals/animals/animals.h
+
+/Users/muhan/myProject/animals/animals/dog.h
+animals.h
+/Users/muhan/myProject/animals/animals/animals.h
+
+/Users/muhan/myProject/animals/animals/main.cpp
+animals.h
+/Users/muhan/myProject/animals/animals/animals.h
+cat.h
+/Users/muhan/myProject/animals/animals/cat.h
+dog.h
+/Users/muhan/myProject/animals/animals/dog.h
+cattle.h
+/Users/muhan/myProject/animals/animals/cattle.h
+sheep.h
+/Users/muhan/myProject/animals/animals/sheep.h
+stdio.h
+-
+string
+-
+
+/Users/muhan/myProject/animals/animals/sheep.h
+animals.h
+/Users/muhan/myProject/animals/animals/animals.h
+
